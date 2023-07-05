@@ -1,6 +1,8 @@
 #include <stdio.h> 
  
 int main() { 
+    SetConsoleCP (1251); 
+    SetConsoleOutputCP (1251) ;
     int p; 
     printf("Введіть кількість розрядів (p ≤ 30): "); 
     scanf("%d", &p); 
